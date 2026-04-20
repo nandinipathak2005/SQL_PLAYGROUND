@@ -132,7 +132,7 @@ import autoprefixer from 'autoprefixer';
 import postcssNested from 'postcss-nested';
 
 export default defineConfig({
-  base: './',
+  base: '/',
   plugins: [react()],
   css: {
     postcss: {
